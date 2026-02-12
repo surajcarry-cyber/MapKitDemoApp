@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A19165E82F3C9DBB00E6FCFF /* RouteVIews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19165E72F3C9DBB00E6FCFF /* RouteVIews.swift */; };
 		A197DDE02F3CAD9000AC7308 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197DDDF2F3CAD9000AC7308 /* LocationManager.swift */; };
 		A199B9A72F3C7068007E42E9 /* IntellisenseMapDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199B9A62F3C7068007E42E9 /* IntellisenseMapDemoAppApp.swift */; };
 		A199B9A92F3C7068007E42E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199B9A82F3C7068007E42E9 /* ContentView.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A19165E72F3C9DBB00E6FCFF /* RouteVIews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteVIews.swift; sourceTree = "<group>"; };
 		A197DDDF2F3CAD9000AC7308 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A199B9A32F3C7068007E42E9 /* IntellisenseMapDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntellisenseMapDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199B9A62F3C7068007E42E9 /* IntellisenseMapDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntellisenseMapDemoAppApp.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			children = (
 				A199B9A82F3C7068007E42E9 /* ContentView.swift */,
 				A199B9BD2F3C772C007E42E9 /* MapScreenView.swift */,
-				A19165E72F3C9DBB00E6FCFF /* RouteVIews.swift */,
 			);
 			name = View;
 			path = "New Group";
@@ -195,7 +192,6 @@
 				A199B9A92F3C7068007E42E9 /* ContentView.swift in Sources */,
 				A197DDE02F3CAD9000AC7308 /* LocationManager.swift in Sources */,
 				A199B9A72F3C7068007E42E9 /* IntellisenseMapDemoAppApp.swift in Sources */,
-				A19165E82F3C9DBB00E6FCFF /* RouteVIews.swift in Sources */,
 				A199B9BB2F3C7224007E42E9 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
