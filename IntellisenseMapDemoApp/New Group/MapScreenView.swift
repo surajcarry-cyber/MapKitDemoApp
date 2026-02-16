@@ -12,13 +12,9 @@ import MapKit
 struct MapScreenView: View {
 
     @StateObject private var viewModel = MapViewModel()
-
     var body: some View {
-
         Map(position: $viewModel.cameraPosition) {
             UserAnnotation()
-
-            //  POIs
             ForEach(viewModel.pois) { poi in
                 Annotation(poi.name,
                            coordinate: poi.coordinate) {
@@ -36,8 +32,6 @@ struct MapScreenView: View {
                         }
                 }
             }
-
-            // Route Polyline
             if let route = viewModel.route {
                 MapPolyline(route.polyline)
                     .stroke(.pink, lineWidth: 6)
